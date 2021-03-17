@@ -142,6 +142,36 @@ footer {
 footer .fa-heart {
     color: red;
 }
+#Menu{
+    font-size: 25px;
+
+}
+table, th {
+    text-align: center;
+}
+td{
+    padding: 20px;
+    text-align: left;
+    vertical-align: top
+
+
+}
+
+#table1 {
+    border-collapse: separate;
+    border-spacing: 25px 10px;
+}
+.table {
+
+    text-align: left;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 75px 50px;
+    border-color: gray;
+}
+li{
+    list-style-type: none;
+}
 @media (max-width: 440px)
 {
     section{
