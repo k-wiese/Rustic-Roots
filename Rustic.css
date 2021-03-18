@@ -247,21 +247,38 @@ Menu{
     border: 3px solid #CCD5AE;
     margin-top:30px;
     }
+#table-container
+{
+    /*container of our table*/
+    font-size:30px;
+    color:#5e6e25;
+    
+    width:75%;
+    height:100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+    #table-container a:visited{
+        text-decoration: none;
+        color:#5e6e25
+
+    }
 
 table, th {
     display:flexbox;
     text-align: center;
     table-layout: auto;
-    margin-left: 11%;
-    border:2px solid black;
-    margin-right: 11%;
+   
+    border:3px solid #CCD5AE;
    
 }
 
 td{ 
-    padding: 20px;
+    
     text-align: center;
-    vertical-align: top
+    /*vertical-align: top*/
 }
 .menu img {
     display: block;
