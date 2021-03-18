@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Rustic.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Rustic Roots | Burlington</title>
+
+<body>
+<!-- small navigaton bar for mobile devices below-->
+
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Rustic Roots</a>
+
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <!--<a href="#Slides" >Home</a>*/-->
+    <a href="#table-container" >Hours</a>
+    <a href="#MainMenu">Menus</a>
+    <a href="#Reservations" target="_blank" >Reservations</a>
+    <a href="#contact" >Contact</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<!--small navigation bar up -->
+
+<!-- old NAV
+    ><nav id="nav">
+    <a href="#Slides" >Home</a>
+    <a href="#Menu" >Hours</a>
+    <a href="#MainMenu">Menus</a>
+    <a href="https://www.opentable.com/" target="_blank" >Reservations</a>
+    <a href="#contact" >Contact</a>
+</nav>
+-->
+
+
+<section id="Slides" >
+    <img class="mySlides" src="bar%20area.jpg" >
+    <img class="mySlides" src="small%20plates.jpg" >
+    <img class="mySlides" src="table.jpg" >
+</section>
+ 
+<br><br>
+
+<div class="LinksUnderSlide-Wrapper">
+     <div class="LinksUnderSlide"><div id ="MenuPageTitle">Menus</div></div></div>
+<div class="Menu-Links-Below">
+    <div id ="Munu-Links"><a href="Menu.html" target="_blank">Small Plates</a> &nbsp;<a href="Flat Breads.html" target="_blank"> Flat breads</a> &nbsp; <a href="Craft Cocktails.html" target="_blank">Craft Coctails 
+
+    </a>&nbsp; <a href="Martinis.html" target="_blank"> Martinis</a> &nbsp;<a href="Wine.html" target="_blank"> Wine</a></div></div>
+
+
+<section id = "table-container" >
+    <br>
+    <table id="table">
+        <tr>
+            <td>
+                <li><ul><u><strong>Kitchen Hours:</strong></u></ul></li>
+                <li>Tuesday-Thursday 5PM-10PM</li>
+                <li>Friday 5-10PM</li>
+                <li>Saturday 12PM-11PM</li>
+                <li>Sunday 5PM-9PM </li>
+                <li><ul><u><strong>Bar Hours:</strong></u></ul></li>
+                <li>Tuesday-Thursday 5PM-10PM</li>
+                <li>Friday 3PM-11PM</li>
+                <li>Saturday 12PM-11PM</li>
+                <li>Sunday 5PM-9PM </li>
+            </td>
+            <td><img src="table.jpg" class="tableImages"></td>
+        </tr>
+        <tr>    
+            <td>  <a href="Menu.html" id="MainMenu" target="_blank"><img src="menu.jpg"class="tableImages" ></a></td>
+            <td>
+               <h1><ul>&emsp;<u><a href="Menu.html" target="_blank">Menu:</a></u></ul></h1>
+               <li>Our Menu has a large varity of Lorem ipsum dolor sit amet,Lorem ipsum.
+                    Donec .</li>
+                <br>
+                <li>Great selection of large varity of Lorem ipsum dolor sit amet,Lorem ipsum.
+                    Donec </li>
+                <br>
+                <li>Only the finest selection large varity of Lorem ipsum dolor sit amet,Lorem ipsum.
+                    Donec </li>
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <h1><ul><u><strong><a href="Reservations.html" id ="Reservations" target="_blank">Reservations:</strong></u></ul></h1></a>
+                <li>Our Menu has a large varity of Lorem ipsum dolor sit amet,Lorem ipsum.
+                    Donec .</li>
+                <br>
+                <li>Great selection of large varity of Lorem ipsum dolor sit amet,Lorem ipsum.
+                    Donec </li>
+                <br>
+                <li>Only the finest selection large varity of Lorem ipsum dolor sit amet,Lorem ipsum.
+                    Donec </li>
+                <br><br>
+            </td>
+            <td><img src="table.jpg"class="tableImages" ></td>
+        </tr>
+    </table>
+</section>
+
+
+<footer class="social-ul"><section id="contact"></section>
+    <a href="tel:+1262661-4653"> <i class="fa fa-phone"> </i></a>
+    <a href="https://g.page/rustic-roots-burlington?share"target="_blank"><i class="fa fa-car"></i></a>
+    <a href="https://www.facebook.com/rusticrootsburlington/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.yelp.com/biz/rustic-roots-burlington" target="_blank"><i class="fa fa-yelp"></i></a>
+    <a href="https://www.instagram.com/rusticrootsburlington/" target="_blank"><i class="fa fa-instagram"></i></a>
+</footer>
+
+
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 4500);
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}    }
+
+</script>
+</body>
+</html>
