@@ -6,6 +6,7 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 55px;
     display:block;
     text-align:center;
     color:lightslategray;
@@ -15,7 +16,7 @@
 #bio{
     background-color:#D4A373;
     text-align: center;
-    font-size:30px;
+    font-size:25px;
     padding-left: 10%;
     padding-right: 10%;
     width:75%;
@@ -177,6 +178,7 @@ footer .fa-heart {
 }
 <!-- Steven Part-->
 Menu{
+    font-size: 15px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -185,7 +187,7 @@ Menu{
     position: relative;
      }
 #Menu{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
