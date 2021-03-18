@@ -7,15 +7,39 @@
 <title>Rustic Roots | Burlington</title>
 
 <body>
+<!-- small navigaton bar for mobile devices below-->
 
 
-<nav id="nav">
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Rustic Roots</a>
+
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <!--<a href="#Slides" >Home</a>*/-->
+    <a href="#Menu" >Hours</a>
+    <a href="#MainMenu">Menus</a>
+    <a href="https://www.opentable.com/" target="_blank" >Reservations</a>
+    <a href="#contact" >Contact</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<!--small navigation bar up -->
+
+<!-- old NAV
+    ><nav id="nav">
     <a href="#Slides" >Home</a>
     <a href="#Menu" >Hours</a>
     <a href="#MainMenu">Menus</a>
     <a href="https://www.opentable.com/" target="_blank" >Reservations</a>
     <a href="#contact" >Contact</a>
 </nav>
+-->
 
 
 <section id="Slides" >
@@ -39,9 +63,9 @@
     <p><br></p>
 </section>
 
-<section id = "Menu" >
+<section id = "table-container" >
     <br>
-    <table id="table1">
+    <table id="table">
         <tr>
             <td>
                 <li><ul><u><strong>Kitchen Hours:</strong></u></ul></li>
@@ -116,7 +140,16 @@
         if (myIndex > x.length) {myIndex = 1}
         x[myIndex-1].style.display = "block";
         setTimeout(carousel, 4500);
-    }
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}    }
 
 </script>
 </body>
