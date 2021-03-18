@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
 
+*{
+    box-sizing: border-box;
+
+}
+
 #Slides{
     width: 75%;
     height: 75%;
@@ -25,12 +30,6 @@
     margin-left: auto;
     margin-right: auto;
     display:block;
-
-}
-
-
-*{
-    box-sizing: border-box;
 
 }
 
@@ -169,55 +168,68 @@ footer {
 footer .fa-heart {
     color: red;
 }
-@media (max-width: 440px)
-{
-    section{
-        padding: 20px;
-    }
-}
+
 <!-- Steven Part-->
 Menu{
-    font-size: 15px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    font-size:25px;
     padding-left: 10%;
     padding-right: 10%;
+    width:75%;
+    height:100%;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
      }
 #Menu{
-    font-size: 35px;
+    background-color:#FAEDCD;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    font-size:35px;
     padding-left: 10%;
     padding-right: 10%;
+    width:75%;
+    height:100%;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
      }
 table, th {
+    display:block;
     text-align: center;
+    table-layout: auto;
+    width: 100%; 
 }
-td{
+td{ 
     padding: 20px;
     text-align: left;
     vertical-align: top
-
-
+}
+.menu img {
+    display: block;
 }
 
 #table1 {
     border-collapse: separate;
     border-spacing: 25px 10px;
+
 }
 .table {
-
+    table-layout: auto;
+    width: 100%;
     text-align: left;
     display: table;
     border-collapse: separate;
-    border-spacing: 75px 50px;
+    border-spacing: 50px 50px;
     border-color: gray;
 }
 li{
     list-style-type: none;
 }
-
+  @media (max-width: 440px)
+{
+    section{
+        padding: 20px;
+    }
+}
