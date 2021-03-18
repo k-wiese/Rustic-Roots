@@ -252,8 +252,9 @@ table, th {
     display:flexbox;
     text-align: center;
     table-layout: auto;
-    /*border:2px solid black;*/
-    
+    margin-left: 25%;
+    border:2px solid black;
+   
 }
 
 td{ 
