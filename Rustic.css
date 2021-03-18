@@ -412,7 +412,9 @@ li{
     text-decoration: underline;
     }
     .Menu-Links-Below{
+        margin-top: 20px;
         text-align: center;
         padding: 15px;
+        font-size: 2em;
     }
 
