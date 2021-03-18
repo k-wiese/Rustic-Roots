@@ -400,3 +400,19 @@ li{
       text-align: left;
     }
   }
+  .LinksUnderSlide{
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 5em;
+    text-align: center;
+    background-color: #5e6e25;
+    font-weight: bolder;
+    display: block;
+    color: lightgoldenrodyellow;
+    text-decoration: underline;
+    }
+    .Menu-Links-Below{
+        text-align: center;
+        padding: 15px;
+    }
+
