@@ -50,7 +50,7 @@
 
 
 #bio{
-    background-color:#FEFAE0;
+    background-color:#FAEDCD;
     text-align: center;
     font-size:35px;
     padding-left: 10%;
@@ -74,7 +74,7 @@ body {
 
 nav
 {
-    background-color: #FEFAE0;
+    background-color: #ccd5ae;
     color: #ffff;
     display: flex;
     justify-content: center;
@@ -228,7 +228,7 @@ Menu{
     color: #000;
 }
 #Menu{
-    background-color:#FEFAE0;
+    background-color:#FAEDCD;
     text-align: center;
     font-size:30px;
     padding-left: 10%;
