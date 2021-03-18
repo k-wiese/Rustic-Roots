@@ -7,13 +7,23 @@
 <title>Rustic Roots | Burlington</title>
 <body>
 <header>Rustic Roots</header>
-<nav id="nav">
-    <a href="Index.html" >Home</a>
-    <a href="Index.html#Menu" >Hours</a>
-    <a href="Index.html#MainMenu" target="_blank" >Menus</a>
-    <a href="https://www.opentable.com/" target="_blank" >Reservations</a>
-    <a href="#contact" >Contact</a>
-</nav>
+<div class="topnav">
+    <a href="#home" class="active">Rustic Roots</a>
+  
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <!--<a href="#Slides" >Home</a>*/-->
+      <a href="#Menu" >Hours</a>
+      <a href="#MainMenu">Menus</a>
+      <a href="https://www.opentable.com/" target="_blank" >Reservations</a>
+      <a href="#contact" >Contact</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
 
 <section id="Slides" >
     <img class="mySlides" src="bar%20area.jpg" >
