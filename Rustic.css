@@ -21,7 +21,7 @@
 #bio{
     background-color:#D4A373;
     text-align: center;
-    font-size:25px;
+    font-size:35px;
     padding-left: 10%;
     padding-right: 10%;
     width:75%;
@@ -172,7 +172,7 @@ footer .fa-heart {
 <!-- Steven Part-->
 Menu{
     text-align: center;
-    font-size:25px;
+    font-size:35px;
     padding-left: 10%;
     padding-right: 10%;
     width:75%;
@@ -182,10 +182,16 @@ Menu{
     margin-right: auto;
     display:block;
      }
+#Menu a:link{
+    color: black;
+}
+#Menu a:visited {
+    color: #000;
+}
 #Menu{
     background-color:#FAEDCD;
     text-align: center;
-    font-size:35px;
+    font-size:45px;
     padding-left: 10%;
     padding-right: 10%;
     width:75%;
@@ -208,6 +214,7 @@ td{
 }
 .menu img {
     display: block;
+    
 }
 
 #table1 {
