@@ -400,7 +400,7 @@ li{
       text-align: left;
     }
   }
-  .LinksUnderSlide{
+  .LinksUnderSlide{ /* this is the title element for the menu pages */
     padding: 15px;
     margin-top: 15px;
     font-size: 5em;
@@ -416,13 +416,25 @@ li{
     margin-left: auto;
     margin-right: auto;
     }
-    .Menu-Links-Below{
+    .Menu-Links-Below{  /*  menu navagation pages (sits below the title element) */
         margin-top: 20px;
         text-align: center;
         padding: 15px;
         font-size: 2em;
     }
-.disclaimer{
+    .Menu-Links-Below a:visited{ /*  menu navagation pages (sits below the title element) */
+        text-decoration: none;
+        color: #5e6e25;
+    }
+    .Menu-Links-Below a {/*  menu navagation anchor elements */
+        text-decoration: underline;
+        color: #5e6e25;
+    }
+    .Menu-Links-Below a:hover{ /*  menu navagation anchor elements hover */
+        background-color: #5e6e25;
+        color: white;
+    }
+.disclaimer{   /*  gluten free explination */
     margin-top: 25px;
     text-align: center;
     font-size: 1.5em;
@@ -432,7 +444,7 @@ li{
     margin-left: auto;
     margin-right: auto;
 }
-.disclaimer2{
+.disclaimer2{   /*  RAW FOOD BAD */
     margin-top: 10px;
     text-align: center;
     font-size: 1em;
@@ -441,16 +453,4 @@ li{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-}
-.Menu-Links-Below a:visited{
-    text-decoration: none;
-    color: #5e6e25;
-}
-.Menu-Links-Below a {
-    text-decoration: underline;
-    color: #5e6e25;
-}
-.Menu-Links-Below a:hover{
-    background-color: #5e6e25;
-    color: white;
 }
