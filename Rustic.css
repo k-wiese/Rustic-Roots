@@ -249,14 +249,27 @@ Menu{
     margin-top:30px;
     }
 
-.tdIndex{
-
-    /*min-width: 50%;
-    align-content: center;*/
+ .tdIndex{         /* table data cell class */
     width:50%;
     height:50%;
     max-height: 300px;
     position:relative;
+    vertical-align: top;
+}
+.tdIndex p{         /* adjust paragraphs in index.html table*/
+    margin-left: 1em;
+    margin-right:0;
+    margin-bottom: 0;
+    padding:0;
+    font-size:100%;
+    text-align: center;
+    flex-grow: 10;
+    
+}
+.tdIndex h1{             /* adjust headers in index.html table*/
+    margin-left: 3em;
+    text-align: center;
+    flex-grow: 1;
 }
 
 #table-container 
