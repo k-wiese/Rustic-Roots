@@ -336,7 +336,7 @@ li{
     text-align:center;
     width:99%;
     border: 3px solid #ccd5ae;
-    margin-left: flex;
+    
     
    
   }
@@ -352,12 +352,14 @@ li{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
-    margin-left: auto;
-    margin-right:auto;
-    align-content: flex-start;
+  
 
 
     
+  }
+  #myLinks{
+      display: none;
+      z-index:200;
   }
   
   /*Change the color of links on hover */
@@ -379,10 +381,20 @@ li{
 
   /* When the screen is less than 630 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 630px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(a.active,a.icon) 
+    {
+        display: none;
+    }
     .topnav a.icon {
       float: right;
       display: block;
+    }
+    #myLinks
+    {
+        display:block;
+        width:100px;
+        height:75px;
+
     }
   }
   
@@ -393,6 +405,7 @@ li{
       position: absolute;
       right: 0;
       top: 0;
+      
     }
     .topnav.responsive a {
       float: none;
@@ -446,6 +459,7 @@ li{
         background-color: #5e6e25;
         color: white;
     }
+
 .disclaimer{   /*  gluten free explination */
     margin-top: 25px;
     text-align: center;
@@ -478,3 +492,7 @@ li{
     margin-right: auto;
     background-color: white;
     }
+
+
+
+
