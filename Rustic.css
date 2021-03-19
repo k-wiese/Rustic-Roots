@@ -319,14 +319,14 @@ li{
 
 
 
-  @media (max-width: 440px)
+  /*@media (max-width: 440px)
 {
     section{
         padding: 20px;
     }
-}
+}*/
 
-/* dropdown menu*/
+/*------------------------------------------------------TOPNAV-DOWN----------------------------------------------------*/
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #FAEDCD;
@@ -399,8 +399,17 @@ li{
       display: block;
       text-align: left;
     }
-  }
-  .LinksUnderSlide{ /* this is the title element for the menu pages */
+}
+
+
+    /*--------------------------------------------------TOPNAV-UP--------------------------------------------------*/
+
+
+
+
+  
+  .LinksUnderSlide
+  { /* this is the title element for the menu pages */
     padding: 15px;
     margin-top: 15px;
     font-size: 5em;
