@@ -4,7 +4,8 @@
     box-sizing: border-box;
 
 }
-body {
+body
+{
     background-image: url("farmhouse.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,7 +13,7 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;   
     background-size: cover;   
     
-  }
+}
  
 
 #Slides{
@@ -51,12 +52,7 @@ body {
     
 }
 
-.tableImages{
-    height:400px;
-    width:150px;
-    margin-top: 50px;
-    
-}
+
 
 
 #bio{
@@ -218,7 +214,7 @@ footer .fa-heart {
     color: red;
 }
 
-<!-- Steven Part-->
+
 Menu{
     text-align: center;
     font-size:35px;
@@ -252,10 +248,22 @@ Menu{
     border: 3px solid #CCD5AE;
     margin-top:30px;
     }
-#table-container
+
+.tdIndex{
+
+    /*min-width: 50%;
+    align-content: center;*/
+    width:50%;
+    height:50%;
+    max-height: 300px;
+    position:relative;
+}
+
+#table-container 
 {
     /*container of our table*/
-    font-size:30px;
+   
+    font-size:100%;
     color:#5e6e25;
     
     width:75%;
@@ -263,19 +271,37 @@ Menu{
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
     
-    }
-    #table-container a:visited{
-        text-decoration: none;
-        color:#5e6e25
+}
+#table-container a:visited
+{
+    text-decoration: none;
+    color:#5e6e25
 
-    }
+}
+   
 
-table {
+#tableIndex /*table itself*/
+{
     text-align: left;
     table-layout: auto;
     border:3px solid #CCD5AE;
-   
+    background-color:black;
+    width:100%;
+    height:100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;       
+}
+ .tableImages /* images inside table */
+{
+    width:100%;
+    height:100%;
+    max-height: 300px;
+    position:relative;
+    
+    
 }
 
 
@@ -284,19 +310,8 @@ table {
     
 }
 
-#table {
-    border-collapse: separate;
-    border-spacing: 25px 25px;
-}
-.table {
-    table-layout: auto;
-    width: 100%;
-    text-align: left;
-    display: table;
-    border-collapse: separate;
-    border-spacing: 50px 50px;
-    border-color: gray;
-}
+
+
 
 li{
     list-style-type: none;
