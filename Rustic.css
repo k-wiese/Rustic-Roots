@@ -258,7 +258,7 @@ Menu{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-
+    
     }
     #table-container a:visited{
         text-decoration: none;
@@ -457,3 +457,15 @@ li{
     margin-left: auto;
     margin-right: auto;
 }
+#table-container2
+{
+    /*container of our table*/
+    font-size:30px;
+    color:#5e6e25;
+    width:75%;
+    height:100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    }
