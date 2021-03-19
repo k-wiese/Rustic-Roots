@@ -20,10 +20,7 @@
 
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-
-
 <!-- Top Nav UP---------------------------------------->
-
 
 
 <section id="Slides" >
@@ -32,15 +29,92 @@
     <img class="mySlides" src="table.jpg" >
 </section>
  
+
 <br><br>
 
 <div class="LinksUnderSlide-Wrapper">
      <div class="LinksUnderSlide"><div id ="MenuPageTitle">Small Plates </div></div></div>
+
 <div class="Menu-Links-Below">
     <div id ="Munu-Links"><a href="Menu.html" >Small Plates</a> &nbsp;<a href="dous.html" >Dous</a> &nbsp;<a href="Flat Breads.html" >Flat breads</a></a> &nbsp;<a href="Salads&Soups.html" >Salads & Soups</a></div></div>
-   <section id = "table-container2" >
+  
+  
+             <!-- Menu container DOWN -->
+<section id = "table-container2" >
 
-    <table id="table2">
+
+
+    <div class="div-centering">
+
+    <img src="Small-Plates.png" alt="Small Plates Menu" class="menu-picture">
+
+    </div>
+
+    
+
+    
+</section>
+  <!-- menu container UP -->
+
+<div class = "disclaimer"><strong>GF - Indicates gluten free dishes or easily modified gluten free dishes</strong></div>
+
+<div class = "disclaimer2">These items are cooked to order and may be served raw or undercooked. Consuming raw or
+     undercooked meats, poultry, seafood, shellfish, or eggs may increase the risk of foodborne illness</div>
+
+<footer class="social-ul"><section id="contact"></section>
+    <a href="tel:+1262661-4653"> <i class="fa fa-phone"> </i></a>
+    <a href="https://g.page/rustic-roots-burlington?share"target="_blank"><i class="fa fa-car"></i></a>
+    <a href="https://www.facebook.com/rusticrootsburlington/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.yelp.com/biz/rustic-roots-burlington" target="_blank"><i class="fa fa-yelp"></i></a>
+    <a href="https://www.instagram.com/rusticrootsburlington/" target="_blank"><i class="fa fa-instagram"></i></a>
+</footer>
+
+
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 4500);
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  
+  var x = document.getElementById("myLinks");
+
+  if (x.style.display === "block") {
+
+    x.style.display = "none";
+
+  } else {
+
+    x.style.display = "block";
+
+  }
+}    }
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- <table id="table2">
         <tr>
             <td>
                 <ul><u><strong>Mac 'n Cheese - 8</strong></u></ul>
@@ -101,55 +175,4 @@
                 <ul><u><strong>Charcuterie & Cheese Board - 19 </strong></u></ul>
                 <li>Meats, cheeses, fruit, and other delicious bites! Gluten free crackers available <strong>GF</strong></li>
             </td>
-    </table>
-</section>
-
-<div class = "disclaimer"><strong>GF - Indicates gluten free dishes or easily modified gluten free dishes</strong></div>
-
-<div class = "disclaimer2">These items are cooked to order and may be served raw or undercooked. Consuming raw or
-     undercooked meats, poultry, seafood, shellfish, or eggs may increase the risk of foodborne illness</div>
-
-<footer class="social-ul"><section id="contact"></section>
-    <a href="tel:+1262661-4653"> <i class="fa fa-phone"> </i></a>
-    <a href="https://g.page/rustic-roots-burlington?share"target="_blank"><i class="fa fa-car"></i></a>
-    <a href="https://www.facebook.com/rusticrootsburlington/" target="_blank"><i class="fa fa-facebook-official"></i></a>
-    <a href="https://www.yelp.com/biz/rustic-roots-burlington" target="_blank"><i class="fa fa-yelp"></i></a>
-    <a href="https://www.instagram.com/rusticrootsburlington/" target="_blank"><i class="fa fa-instagram"></i></a>
-</footer>
-
-
-
-<script>
-    var myIndex = 0;
-    carousel();
-
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 4500);
-
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-  
-  var x = document.getElementById("myLinks");
-
-  if (x.style.display === "block") {
-
-    x.style.display = "none";
-
-  } else {
-
-    x.style.display = "block";
-
-  }
-}    }
-
-</script>
-</body>
-</html>
+    </table> -->
