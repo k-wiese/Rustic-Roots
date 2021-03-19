@@ -473,7 +473,7 @@ li{
     background-color: #6F978F;
     font-weight: bolder;
     display: block;
-    color: #4A4544;
+    color: #ffff;
     text-decoration: underline;
     width:75%;
     height:100%;
@@ -500,10 +500,11 @@ li{
     }
     .Menu-Links-Below a {/*  menu navagation anchor elements */
         text-decoration: underline;
-        color: #4A4544;
+        color: #ffff;
     }
     .Menu-Links-Below a:hover{ /*  menu navagation anchor elements hover */
-    color: white;
+    color: black
+    
     }
 
 .disclaimer{   /*  gluten free explination */
