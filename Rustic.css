@@ -187,9 +187,6 @@ section p {
     width: 50px;
     height: 50px;
     text-decoration: none;
-    
-    
-
 }
 .bio {
     background-color: #d4A373;
@@ -274,20 +271,14 @@ Menu{
 
     }
 
-table, th {
-    display:flexbox;
-    text-align: center;
+table {
+    text-align: left;
     table-layout: auto;
-   
     border:3px solid #CCD5AE;
    
 }
 
-td{ 
-    
-    text-align: center;
-    /*vertical-align: top*/
-}
+
 .menu img {
     display: block;
     
@@ -295,9 +286,7 @@ td{
 
 #table {
     border-collapse: separate;
-    border-spacing: 25px 10px;
-    
-
+    border-spacing: 25px 25px;
 }
 .table {
     table-layout: auto;
@@ -523,7 +512,7 @@ li{
 {
     /*container of our table*/
     font-size:30px;
-    color:#5e6e25;
+    color:#5e6e25; 
     width:75%;
     height:100%;
     position: relative;
