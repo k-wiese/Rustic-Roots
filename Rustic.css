@@ -446,6 +446,10 @@ li{
     text-decoration: none;
     color: #5e6e25;
 }
+.Menu-Links-Below a {
+    text-decoration: none;
+    color: #5e6e25;
+}
 .Menu-Links-Below a:hover{
     background-color: #5e6e25;
     color: white;
