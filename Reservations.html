@@ -32,6 +32,28 @@
     <img class="mySlides" src="table.jpg" >
 </section>
 
+<h2>Reservations at Rustic Roots</h2>
+      <h3>Contact Us Today!</h3>
+      <p>Required fileds are marked with an *</p>
+      <form method="post" action="https://example.com/">
+        <label for="myFName">*First Name:</label>
+        <input type="text" id="myFName" name="myFName" required="required">
+        <label for="myLName">*Last Name: </label>
+        <input type="text" id="myLName" name="myLName" required="required">
+        <label for="myEmail">*E-mail: </label>
+        <input type="email" id="myEmail" name="myEmail" required="required">
+        <label for="myPhone">Phone: </label>
+        <input type="tel" id="myPhone" name="myPhone" maxlength="12"> 
+        <label for="myRequestdDate">Requestd Date: </label>
+        <input type="date" id="my" name="myRequestdDate" >
+        <label for="partySize">Party Size: </label>
+        <input type="number" id="partySize" name="partySize" min="8" max="30">
+        <label for="myComments">*Comments:</label>
+        <textarea id="myComments" name="myComments" rows="2" cols="30" required="required"></textarea>
+        <input type="submit"  value="Submit">
+      </form>
+
+
 <script>
     var myIndex = 0;
     carousel();
