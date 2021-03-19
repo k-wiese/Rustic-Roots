@@ -470,10 +470,10 @@ li{
     margin-top: 15px;
     font-size: 5em;
     text-align: center;
-    background-color: #5e6e25;
+    background-color: #748572;
     font-weight: bolder;
     display: block;
-    color: lightgoldenrodyellow;
+    color: #4A4544;
     text-decoration: underline;
     width:75%;
     height:100%;
@@ -482,25 +482,28 @@ li{
     margin-right: auto;
     }
     .Menu-Links-Below{  /*  menu navagation pages (sits below the title element) */
-        margin-top: 20px;
-        text-align: center;
         padding: 15px;
+        margin-top: 15px;
         font-size: 2em;
+        text-align: center;
+        background-color: #748572;
+        font-weight: bolder;
+        display: block;
+        width:75%;
+        height:100%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
     }
     .Menu-Links-Below a:visited{ /*  menu navagation pages (sits below the title element) */
         text-decoration: none;
-        color: #5e6e25;
-    }
-    .Menu-Links-Below a:active{
-        background-color: #000;
     }
     .Menu-Links-Below a {/*  menu navagation anchor elements */
         text-decoration: underline;
-        color: #5e6e25;
+        color: #4A4544;
     }
     .Menu-Links-Below a:hover{ /*  menu navagation anchor elements hover */
-        background-color: #5e6e25;
-        color: white;
+    color: white;
     }
 
 .disclaimer{   /*  gluten free explination */
