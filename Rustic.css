@@ -270,7 +270,7 @@ Menu{
 
     }
 
-table /*table itself*/
+#tableIndex /*table itself*/
 {
     text-align: left;
     table-layout: auto;
