@@ -426,6 +426,9 @@ li{
         text-decoration: none;
         color: #5e6e25;
     }
+    .Menu-Links-Below a:active{
+        background-color: #000;
+    }
     .Menu-Links-Below a {/*  menu navagation anchor elements */
         text-decoration: underline;
         color: #5e6e25;
