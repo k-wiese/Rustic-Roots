@@ -7,40 +7,32 @@
 <title>Rustic Roots | Burlington</title>
 
 <body>
-<!-- small navigaton bar for mobile devices below-->
 
 
-<!-- Top Navigation Menu -->
 <!-- Top Navigation Menu -->
 <div class="topnav">
     <a href="Index.html" class="active">Rustic Roots</a>
+    <a href="#table-container" >Hours</a>
+    <a href="Menu.html">Menus</a>
+    <a href="Reservations.html" target="_blank" >Reservations</a>
+    <a href="#contact" >Contact</a>
   
     <!-- Navigation links (hidden by default) -->
+
     <div id="myLinks">
-      <!--<a href="#Slides" >Home</a>*/-->
-      <a href="#table-container" >Hours</a>
-      <a href="Menu.html">Menus</a>
-      <a href="Reservations.html" target="_blank" >Reservations</a>
-      <a href="#contact" >Contact</a>
+
+        <a href="Menu.html">Menus</a>
+        
+       
+     
     </div>
+ 
+
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="javascript:void(0)" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
-
-
-<!--small navigation bar up -->
-
-<!-- old NAV
-    ><nav id="nav">
-    <a href="#Slides" >Home</a>
-    <a href="#Menu" >Hours</a>
-    <a href="#MainMenu">Menus</a>
-    <a href="https://www.opentable.com/" target="_blank" >Reservations</a>
-    <a href="#contact" >Contact</a>
-</nav>
--->
 
 
 <section id="Slides" >
@@ -60,6 +52,8 @@
          We look forward to seeing you soon!</p>
     <p><br></p>
 </section>
+
+
 
 <section id = "table-container" >
     <br>
@@ -137,16 +131,23 @@
         if (myIndex > x.length) {myIndex = 1}
         x[myIndex-1].style.display = "block";
         setTimeout(carousel, 4500);
+    }
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
+function myFunction()
+ {
   var x = document.getElementById("myLinks");
+
   if (x.style.display === "block") {
+
     x.style.display = "none";
-  } else {
+  } 
+  else 
+  {
+
     x.style.display = "block";
   }
-}    }
+}   
 
 </script>
 </body>
