@@ -535,11 +535,30 @@ li{
     width:75%;
     height:100%;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    }
+     margin-left: auto;
+    margin-right: auto; 
+    background-color: gray;
+    align-self: center;
+    
+    
+
+}
 
 
+.div-centering{
 
+    display: flex;
+    justify-content: center;
+    width:100%;
+    
+    
+}
+ .menu-picture{
+
+    width:100%;
+    min-width: none;
+    max-height: none;
+
+
+} 
 
