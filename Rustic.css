@@ -447,7 +447,7 @@ li{
     color: #5e6e25;
 }
 .Menu-Links-Below a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #5e6e25;
 }
 .Menu-Links-Below a:hover{
