@@ -4,7 +4,9 @@
     box-sizing: border-box;
 
 }
-body {
+body
+
+{
     background-image: url("farmhouse.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,7 +14,7 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;   
     background-size: cover;   
     
-  }
+}
  
 
 #Slides{
@@ -51,12 +53,7 @@ body {
     
 }
 
-.tableImages{
-    height:400px;
-    width:150px;
-    margin-top: 50px;
-    
-}
+
 
 
 #bio{
@@ -218,7 +215,7 @@ footer .fa-heart {
     color: red;
 }
 
-<!-- Steven Part-->
+
 Menu{
     text-align: center;
     font-size:35px;
@@ -252,7 +249,9 @@ Menu{
     border: 3px solid #CCD5AE;
     margin-top:30px;
     }
-#table-container
+
+
+#table-container 
 {
     /*container of our table*/
     font-size:30px;
@@ -263,7 +262,7 @@ Menu{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    
+    background-color: white;
     }
     #table-container a:visited{
         text-decoration: none;
@@ -271,11 +270,21 @@ Menu{
 
     }
 
-table {
+table /*table itself*/
+{
     text-align: left;
     table-layout: auto;
     border:3px solid #CCD5AE;
+    background-color:black;
    
+}
+.tableImages
+{
+    width:100%;
+    height:100%;
+    position:relative;
+    
+    
 }
 
 
