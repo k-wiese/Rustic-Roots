@@ -76,55 +76,12 @@ body
 /*TEXT COLOR  = #5e6e25 */
 
 
-
-nav
-{
-    background-color: #ccd5ae;
-    color: #ffff;
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    padding: 15px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    border:3px solid #ccd5ae;
-    
-}
-nav a
-{
-    color:#5e6e25;
-    margin-left: 30px;
-    position: relative;
-    text-decoration: none;
-    font-size: 45px;
-}
-nav a::after {
-    content: '';
-    border-bottom: 3px solid #5e6e25;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(10px);
-    transition: transform 0.3s ease;
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-}
-nav a:hover::after {
-    opacity: 1;
-    transform: translateY(0);
-}
 section h2 {
     margin-bottom: 0;
     font-size: 30px;
 }
 
-section p {
-    margin-top: 0;
-}
+
 .projects-container{
     display: flex;
     flex-wrap:wrap;
@@ -257,6 +214,8 @@ Menu{
     max-height: 300px;
     position:relative;
     vertical-align: top;
+    
+    
 }
  .tdIndex p {        /* adjust paragraphs in index.html table */ 
     margin-left: .5em;
@@ -269,7 +228,7 @@ Menu{
 
 
 .tdIndex h2, h1{             /* adjust headers in index.html table*/
-    margin-left: 3em;
+ /  margin-left: 3em;
     margin-right: 3em;
 }
 
@@ -286,6 +245,7 @@ Menu{
     margin-right: auto;
     background-color: white;   
     display: flex; 
+    margin-top:30px;/* vert. gap between table and bio */
 }
 #table-container a:visited
 {
