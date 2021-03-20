@@ -264,12 +264,7 @@ Menu{
     font-size:100%;
 }  
 
-.alignleft {
-	float: left;
-}
-.alignright {
-	float: right;
-}
+
 
 .tdIndex h2, h1{             /* adjust headers in index.html table*/
     margin-left: 3em;
@@ -574,5 +569,33 @@ Menu{
     max-height: none;
 
 
-} 
+}
 
+.Digital-Menu{
+    padding: 15px;
+    margin-top: 15px;
+    /* font-size: 2em; */
+    text-align: center;
+    background-color: white;
+    width:75%;
+    height:100%;
+    margin: auto;
+    overflow: hidden;  
+}
+.Digital-Menu h2 {
+    font-size:5vw;
+    text-size-adjust: auto;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-size-adjust: auto;
+}
+.flex-container p{
+    font-size:3vw;;
+    padding: 10px;
+    display: block;
+    word-wrap: break-word;
+    text-size-adjust: auto;  
+}
