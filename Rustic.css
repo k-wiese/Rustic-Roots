@@ -679,6 +679,12 @@ Menu{
     text-align: center;
     max-width: 33%;
 }
+@media screen and (max-width: 600px) {
+    .flex-container-Hours p{
+        font-size: 15px;
+    }
+}
+
 .Digital-Menu-Index-paragraph{
     font-size:3vw;
     text-align: center;
