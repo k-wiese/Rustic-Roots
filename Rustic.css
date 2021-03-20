@@ -25,7 +25,6 @@ body
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    
     padding-top: 90px;
     display:block;
     text-align:center;
@@ -476,69 +475,7 @@ Menu{
 
 
   
-  .LinksUnderSlide
-  { /* this is the title element for the menu pages */
-    padding: 15px;
-    margin-top: 15px;
-    font-size:5vw;
-    text-align: center;
-    background-color: #6F978F;
-    font-weight: bolder;
-    display: block;
-    color: #ffff;
-    text-decoration: underline;
-    width:75%;
-    height:100%;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    }
-    .Menu-Links-Below{  /*  menu navagation pages (sits below the title element) */
-        padding: 15px;
-        margin-top: 15px;
-        font-size:3vw;
-        text-align: center;
-        background-color: #6F978F;
-        font-weight: bolder;
-        display: block;
-        width:75%;
-        height:100%;
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .Menu-Links-Below a:visited{ /*  menu navagation pages (sits below the title element) */
-        text-decoration: none;
-    }
-    .Menu-Links-Below a {/*  menu navagation anchor elements */
-        text-decoration: underline;
-        color: #ffff;
-    }
-    .Menu-Links-Below a:hover{ /*  menu navagation anchor elements hover */
-    color: black
-    
-    }
 
-.disclaimer{   /*  gluten free explination */
-    margin-top: 25px;
-    text-align: center;
-    font-size:1.2vw;
-    width:75%;
-    height:100%;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-.disclaimer2{   /*  RAW FOOD BAD */
-    margin-top: 10px;
-    text-align: center;
-    font-size:1vw;
-    width:75%;
-    height:100%;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
 #table-container2
 {
     /*container of our table*/
@@ -574,7 +511,9 @@ Menu{
 
 }
 /* ----------------------------------------------------------------------------------------- */
-.Digital-Menu{              /* !---NEW DIVS MENU CONTROLS---> */
+/* ----------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------- */
+.Digital-Menu{                          /* !---RESTURANT MENU CONTROLS---> */
     padding: 15px;
     margin-top: 15px;
     background-color: white;
@@ -584,22 +523,22 @@ Menu{
     overflow: hidden;
     opacity: 90%;
 }
-.Digital-Menu h2 {
+.Digital-Menu h2 {                           /* !---RESTURANT MENU CONTROLS---> */
     font-size:4vw;
     text-align: center;
     text-shadow: 1px 1px gray;
 }
-.flex-container {
+.flex-container {                           /* !---RESTURANT MENU CONTROLS---> */
     display: flex;
     justify-content: space-evenly; 
 }
-.flex-container p{
+.flex-container p{                          /* !---RESTURANT MENU CONTROLS---> */
     font-size:2.0vw;
     padding: 2%;
     text-align: left;
     max-width: 33%;
 }
-.flex-container-bottom{
+.flex-container-bottom{                           /* !---RESTURANT MENU CONTROLS---> */
     font-size:2.0vw;
     display: inline-flex;
     text-align: center;
@@ -607,4 +546,69 @@ Menu{
     margin-right: 20%;
 
 }
+.LinksUnderSlide                /* this is the title element for the menu pages */
+{ 
+  padding: 15px;
+  margin-top: 15px;
+  font-size:5vw;
+  text-align: center;
+  background-color: #6F978F;
+  font-weight: bolder;
+  display: block;
+  color: #ffff;
+  text-decoration: underline;
+  width:75%;
+  height:100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .Menu-Links-Below{             /*  menu navagation pages (sits below the title element) */
+      padding: 15px;
+      margin-top: 15px;
+      font-size:3vw;
+      text-align: center;
+      background-color: #6F978F;
+      font-weight: bolder;
+      display: block;
+      width:75%;
+      height:100%;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .Menu-Links-Below a:visited{      /*  menu navagation pages (sits below the title element) */
+      text-decoration: none;
+  }
+  .Menu-Links-Below a {             /*  menu navagation anchor elements */
+      text-decoration: underline;
+      color: #ffff;
+  }
+  .Menu-Links-Below a:hover{        /*  menu navagation anchor elements hover */
+  color: black
+  
+  }
+
+.disclaimer{                         /*  gluten free explination */
+  margin-top: 25px;
+  text-align: center;
+  font-size:1.2vw;
+  width:75%;
+  height:100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.disclaimer2{                         /*  RAW FOOD BAD */
+  margin-top: 10px;
+  text-align: center;
+  font-size:1vw;
+  width:75%;
+  height:100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ----------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------- */
