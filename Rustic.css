@@ -477,7 +477,7 @@ Menu{
   { /* this is the title element for the menu pages */
     padding: 15px;
     margin-top: 15px;
-    font-size: 5em;
+    font-size:5vw;
     text-align: center;
     background-color: #6F978F;
     font-weight: bolder;
@@ -493,7 +493,7 @@ Menu{
     .Menu-Links-Below{  /*  menu navagation pages (sits below the title element) */
         padding: 15px;
         margin-top: 15px;
-        font-size: 2em;
+        font-size:3vw;
         text-align: center;
         background-color: #6F978F;
         font-weight: bolder;
@@ -519,7 +519,7 @@ Menu{
 .disclaimer{   /*  gluten free explination */
     margin-top: 25px;
     text-align: center;
-    font-size: 1.5em;
+    font-size:1.2vw;
     width:75%;
     height:100%;
     position: relative;
@@ -529,7 +529,7 @@ Menu{
 .disclaimer2{   /*  RAW FOOD BAD */
     margin-top: 10px;
     text-align: center;
-    font-size: 1em;
+    font-size:1vw;
     width:75%;
     height:100%;
     position: relative;
