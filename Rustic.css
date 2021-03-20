@@ -575,7 +575,6 @@ Menu{
     padding: 15px;
     margin-top: 15px;
     /* font-size: 2em; */
-    text-align: center;
     background-color: white;
     width:75%;
     height:100%;
@@ -584,20 +583,16 @@ Menu{
 }
 .Digital-Menu h2 {
     font-size:4vw;
-    text-size-adjust: auto;
     text-align: center;
-    word-wrap: break-word;
+    text-shadow: 2px 2px gray;
 }
 .flex-container {
     display: flex;
-    justify-content: space-evenly;
-    text-size-adjust: auto;
+    justify-content: space-evenly; 
 }
 .flex-container p{
     font-size:2.0vw;;
-    padding: 10px;
-    display: block;
-    word-wrap: break-word;
-    text-size-adjust: auto;  
+    padding: 2%;
     text-align: left;
+    max-width: 33%;
 }
