@@ -583,9 +583,10 @@ Menu{
     overflow: hidden;  
 }
 .Digital-Menu h2 {
-    font-size:5vw;
+    font-size:4vw;
     text-size-adjust: auto;
     text-align: center;
+    word-wrap: break-word;
 }
 .flex-container {
     display: flex;
@@ -593,9 +594,10 @@ Menu{
     text-size-adjust: auto;
 }
 .flex-container p{
-    font-size:3vw;;
+    font-size:2.0vw;;
     padding: 10px;
     display: block;
     word-wrap: break-word;
     text-size-adjust: auto;  
+    text-align: left;
 }
