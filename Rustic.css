@@ -14,6 +14,9 @@ body
     background-size: cover;   
     
 }
+.IndexPageBodyImage{
+    background-image: url("farmhousetable.jpg");
+}
  
 
 #Slides{
@@ -578,7 +581,8 @@ Menu{
     width:75%;
     height:100%;
     margin: auto;
-    overflow: hidden;  
+    overflow: hidden;
+    opacity: 90%;
 }
 .Digital-Menu h2 {
     font-size:4vw;
