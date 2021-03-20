@@ -590,12 +590,13 @@ Menu{
     justify-content: space-evenly; 
 }
 .flex-container p{
-    font-size:2.0vw;;
+    font-size:2.0vw;
     padding: 2%;
     text-align: left;
     max-width: 33%;
 }
 .flex-container-bottom{
+    font-size:2.0vw;
     display: inline-flex;
     text-align: center;
     margin-left: 20%;
