@@ -538,6 +538,11 @@ Menu{
     text-align: left;
     max-width: 33%;
 }
+.P-NextToImage{
+    text-align: right;
+    margin-left: 8%;
+    padding: 0%;
+}
 .flex-container-bottom{                           /* !---RESTURANT MENU CONTROLS---> */
     font-size:2.0vw;
     display: inline-flex;
@@ -571,6 +576,29 @@ Menu{
 .flex-container a:link{
     color: black;
     text-decoration: none;
+}
+.rightimage{
+    width:30vw; 
+    height:20vw;
+    flex: inline;
+    margin-left: -3%;
+}
+.P-LeftToImage{
+    text-align: right;
+    margin-left: 8%;
+    padding: 0%;
+}
+.leftimage{
+    width:30vw; 
+    height:20vw;
+    flex: inline start;
+}
+.P-RightToImage{
+    text-align: right;
+    margin-left: -22%;
+    margin-top: -2%;
+    padding: 0%;
+    vertical-align: top;
 }
 .LinksUnderSlide                /* this is the title element for the menu pages */
 { 
