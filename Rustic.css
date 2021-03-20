@@ -681,7 +681,7 @@ Menu{
 }
 @media screen and (max-width: 600px) {
     .flex-container-Hours p{
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 
@@ -690,4 +690,12 @@ Menu{
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
+}
+.Hours-Heading-Tag{
+    font-size: 4vw;
+}
+@media screen and (max-width: 600px) {
+    .Hours-Heading-Tag{
+        font-size: 12px;
+    }
 }
