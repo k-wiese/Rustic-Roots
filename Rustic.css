@@ -562,6 +562,7 @@ Menu{
   position: relative;
   margin-left: auto;
   margin-right: auto;
+
   }
   .Menu-Links-Below{             /*  menu navagation pages (sits below the title element) */
       padding: 15px;
@@ -576,6 +577,7 @@ Menu{
       position: relative;
       margin-left: auto;
       margin-right: auto;
+      opacity: 90%;
   }
   .Menu-Links-Below a:visited{      /*  menu navagation pages (sits below the title element) */
       text-decoration: none;
