@@ -584,7 +584,7 @@ Menu{
 .Digital-Menu h2 {
     font-size:4vw;
     text-align: center;
-    text-shadow: 2px 2px gray;
+    text-shadow: 1px 1px gray;
 }
 .flex-container {
     display: flex;
