@@ -559,6 +559,19 @@ Menu{
     color: black;
     text-decoration: none;
 }
+.flex-container a{
+    text-decoration: none;
+}
+.flex-container a:hover{
+    color: red;
+}
+.flex-container a:visited{
+    color: black;
+}
+.flex-container a:link{
+    color: black;
+    text-decoration: none;
+}
 .LinksUnderSlide                /* this is the title element for the menu pages */
 { 
   padding: 15px;
