@@ -58,7 +58,7 @@ body
 
 
 #bio{
-    background-color:#FAEDCD;
+    background-color:#A6A295;
     text-align: center;
     font-size:2.5vw;
     padding-left: 10%;
@@ -69,8 +69,9 @@ body
     margin-left: auto;
     margin-right: auto;
     display:block;
-    border:3px solid #ccd5ae;
-    color:#5e6e25;
+    border:3px solid #92938D;
+    color:white;
+    opacity: 95%;
 
 }
 /*TEXT COLOR  = #5e6e25 */
@@ -669,4 +670,19 @@ Menu{
 }
 /* ----------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------- */
-/* ----------------------------------------------------------------------------------------- */
+/* -----------------------------------INDEX PAGE CLASSES------------------------------------ */
+.Menu-Links-Below-Index{
+    padding: 15px;
+    margin-top: 15px;
+    font-size:3vw;
+    text-align: center;
+    background-color: #92938D;
+    font-weight: bolder;
+    display: block;
+    width:75%;
+    height:100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 90%;
+}
