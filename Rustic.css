@@ -587,11 +587,13 @@ Menu{
     text-align: right;
     margin-left: 8%;
     padding: 0%;
+    vertical-align: top;
+    margin-top: -2%;
 }
 .leftimage{
     width:30vw; 
     height:20vw;
-    flex: inline start;
+    flex: inline;
 }
 .P-RightToImage{
     text-align: right;
