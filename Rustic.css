@@ -629,6 +629,13 @@ Menu{
   margin-right: auto;
 }
 /* ----------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------------*/
+
+
+
+
+
+
 /* ----------------------------------------------------------------------------------------- */
 /* -----------------------------------INDEX PAGE CLASSES------------------------------------ */
 .Menu-Links-Below-Index{
@@ -644,5 +651,37 @@ Menu{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    opacity: 90%;
+    opacity: 95%;
+}
+.Digital-Menu-Index{                          /* !---RESTURANT MENU CONTROLS---> */
+    padding: 15px;
+    margin-top: 15px;
+    background-color: white;
+    border:3px solid #92938D;
+    width:75%;
+    height:100%;
+    margin: auto;
+    overflow: hidden;
+    opacity: 95%;
+}
+.Digital-Menu-Index h2 {                           /* !---DIV CONTROLS FOR INDEX TEXT---> */
+    font-size:5vw;
+    text-align: center;
+    text-shadow: 1px 1px gray;
+}
+.flex-container-Hours {                           /* !---RESTURANT MENU CONTROLS---> */
+    display: flex;
+    justify-content: space-evenly; 
+}
+.flex-container-Hours p{                          /* !---RESTURANT MENU CONTROLS---> */
+    font-size:2.0vw;
+    padding: 2%;
+    text-align: center;
+    max-width: 33%;
+}
+.Digital-Menu-Index-paragraph{
+    font-size:3vw;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
