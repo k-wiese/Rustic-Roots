@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Rustic.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Rustic Roots | Flatbreads </title>
+
+<body>
+<!-- small navigaton bar for mobile devices below-->
+
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="Index.html" class="active">Rustic Roots</a>
+
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <!--<a href="#Slides" >Home</a>*/-->
+    <a href="Menu.html">Menus</a>
+    <a href="Reservations.html" target="_blank" >Reservations</a>
+    <a href="#contact" >Contact</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!--small navigation bar up -->
+
+<!-- old NAV
+    ><nav id="nav">
+    <a href="#Slides" >Home</a>
+    <a href="#Menu" >Hours</a>
+    <a href="#MainMenu">Menus</a>
+    <a href="https://www.opentable.com/" target="_blank" >Reservations</a>
+    <a href="#contact" >Contact</a>
+</nav>
+-->
+
+
+<!-- <section id="Slides" >
+    <img class="mySlides" src="bar%20area.jpg" >
+    <img class="mySlides" src="small%20plates.jpg" >
+    <img class="mySlides" src="table.jpg" >
+</section>
+ -->
+<br><br><br><br>
+
+    <div class="LinksUnderSlide"><div id ="MenuPageTitle">Flatbreads</div></div>
+
+
+     <div class="Menu-Links-Below">
+     <div id ="Munu-Links"><a href="Menu.html" >Small Plates</a> &nbsp;<a href="dous.html" >Dous</a> &nbsp;<a href="Flat Breads.html" >Flat breads</a></a> &nbsp;<a href="Salads&Soups.html" >Salads & Soups</a></div></div>
+ 
+
+
+
+    <div class="Digital-Menu">
+      <h2>Flatbreads</h2>
+      <hr>
+      <div class="flex-container-bottom">
+        <p><strong>Our flatbread crust is made in house from scratch.</strong><br />
+      </div>
+      <hr>
+      <div class="flex-container">
+        <p><strong>Margherita - 11</strong><br />
+          Fresh tomato, mozzarella, and
+          basil with a balsamic glaze
+        </p>
+    
+        <p><strong>Goat Cheese - 12</strong><br />
+          Herb seasoned goat cheese,
+          prosciutto, and local honey
+          </p>
+      </div>
+      <div class="flex-container">
+        <img src="fancytable.jpg"  class="leftimage" alt="" ></p>
+        <p class ="P-RightToImage"><strong>Menu Picture Demo</strong><br />
+         This displays an image for your signature menu items</p>
+      
+            
+      </div>
+      <div class="flex-container">
+        <p><strong>Chicken Pesto - 11</strong><br />
+          fresh pesto, mozzarella, and
+          sun dried tomato
+          </p>
+    
+        <p><strong>House made alfredo sauce and topped with diced tomato</strong><br />
+          House made alfredo sauce and topped with diced tomato<br>
+          &emsp;<strong> chicken - 4</strong><br>
+          &emsp;<strong> shrimp - 6</strong> 
+          </p>
+      </div>
+<hr>
+<div class = "disclaimer"><strong>GF - Indicates gluten free dishes or easily modified gluten free dishes<br></strong></div>
+
+<div class = "disclaimer2">These items are cooked to order and may be served raw or undercooked. Consuming raw or
+     undercooked meats, poultry, seafood, shellfish, or eggs may increase the risk of foodborne illness</div>
+</div>
+<footer class="social-ul"><section id="contact"></section>
+    <a href="tel:+1262661-4653"> <i class="fa fa-phone"> </i></a>
+    <a href="https://g.page/rustic-roots-burlington?share"target="_blank"><i class="fa fa-car"></i></a>
+    <a href="https://www.facebook.com/rusticrootsburlington/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.yelp.com/biz/rustic-roots-burlington" target="_blank"><i class="fa fa-yelp"></i></a>
+    <a href="https://www.instagram.com/rusticrootsburlington/" target="_blank"><i class="fa fa-instagram"></i></a>
+</footer>
+
+
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 4500);
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}    }
+
+</script>
+</body>
+</html>
