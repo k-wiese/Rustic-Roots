@@ -4,7 +4,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="Rustic.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>Rustic Roots | Reservations</title>
+<head> <!-- nagłówek strony -->
+  <meta charset="utf-8" /> <!-- utf-8 -->
+  
+   <title>Rustic Roots | Reservations</title> <!-- Title -->
+  <meta name="description" content="Page about reservations in Rustic Roots" />
+  <meta name="author" content="John Doe" />
+  
+   <!-- This lines forces mobile devices to display full width -->
+  <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+  
+   <!-- Shortcut icons for browsers and apple devices -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  
 <body>
 
 <!-- Top Navigation Menu -->
@@ -31,23 +44,36 @@
 <h2>Reservations at Rustic Roots</h2>
       <h3>Contact Us Today!</h3>
       <p>Required fileds are marked with an *</p>
-      <form method="post" action="https://example.com/">
+      <form action="skrypt.php" method="post">
+
+         <!-- Start of a form-->
         <label for="myFName">*First Name:</label>
         <input type="text" id="myFName" name="myFName" required="required">
+        
         <label for="myLName">*Last Name: </label>
         <input type="text" id="myLName" name="myLName" required="required">
+        
         <label for="myEmail">*E-mail: </label>
         <input type="email" id="myEmail" name="myEmail" required="required">
+        
         <label for="myPhone">Phone: </label>
-        <input type="tel" id="myPhone" name="myPhone" maxlength="12"> 
+        <input type="tel" id="myPhone" name="myPhone" maxlength="12">
+        
         <label for="myRequestdDate">Requestd Date: </label>
-        <input type="date" id="my" name="myRequestdDate" >
+        <input type="date" id="my" name="myRequestdDate" required="required">
+        
         <label for="partySize">Party Size: </label>
-        <input type="number" id="partySize" name="partySize" min="8" max="30">
+        <input type="number" id="partySize" name="partySize" min="1" max="30">
+        
         <label for="myComments">*Comments:</label>
-        <textarea id="myComments" name="myComments" rows="2" cols="30" required="required"></textarea>
-        <input type="submit"  value="Submit">
-      </form>
+        <textarea id="myComments" name="myComments" rows="2" cols="30"></textarea>
+        
+        <input type="submit" value="Submit">
+        </form>
+
+
+
+
 
 
 <script>
