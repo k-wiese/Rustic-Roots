@@ -696,12 +696,38 @@ Menu{
     margin-right: auto;
     opacity: 95%;
 }
+.Menu-Links-Below-Index-hours{
+    padding: 15px;
+    margin-top: 15px;
+    font-size:3vw;
+    text-align: center;
+    background-color: #92938D;
+    font-weight: bolder;
+    display: block;
+    width:60%;
+    height:100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 95%;
+}
 .Digital-Menu-Index{                          /* !---RESTURANT MENU CONTROLS---> */
     padding: 15px;
     margin-top: 15px;
     background-color: white;
     border:3px solid #92938D;
     width:85%;
+    height:100%;
+    margin: auto;
+    overflow: hidden;
+    opacity: 95%;
+}
+.Digital-Menu-Index-hours{                          /* !---RESTURANT MENU CONTROLS---> */
+    padding: 15px;
+    margin-top: 15px;
+    background-color: white;
+    border:3px solid #92938D;
+    width:60%;
     height:100%;
     margin: auto;
     overflow: hidden;
@@ -715,6 +741,7 @@ Menu{
 .flex-container-Hours {                           /* !---RESTURANT MENU CONTROLS---> */
     display: flex;
     justify-content: space-evenly; 
+
 }
 .flex-container-Hours p{                          /* !---RESTURANT MENU CONTROLS---> */
     font-size:2.0vw;
