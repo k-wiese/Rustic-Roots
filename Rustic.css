@@ -12,8 +12,7 @@ body
     background-color: white;
     font-family: 'Yanone Kaffeesatz', sans-serif;   
     background-size: cover; 
-    background-position: center;
-    
+    background-position: center center;    
 }
 .IndexPageBodyImage{
     background-image: url("farmhousetable.jpg");
