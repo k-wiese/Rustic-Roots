@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Rustic.css">
+<script src="javascript.js" ></script>
+<link rel="stylesheet" href="Rustic.css" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Rustic Roots | Burlington</title>
 
@@ -19,16 +20,43 @@
 
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
+  <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  } 
+  </script>
 
 
-<!-- Top Nav UP---------------------------------------->
   
-
+<!-- Slides section -->
 <section id="Slides" >
-  <img class="mySlides" src="farmlove.jpg" >
-  <!-- <img class="mySlides" src="farmlove2.jpg" > -->
-  <img class="mySlides" src="farmlove4.jpg" >
-  <img class="mySlides" src="small%20plates.jpg" >
+  <img class="mySlides" src="farmlove.jpg" alt="Corn Farm and a house">
+  <img class="mySlides" src="farmlove4.jpg" alt="Farm at sunset">
+  <img class="mySlides" src="small%20plates.jpg" alt="Food">
+  <script>
+     var myIndex = 0;
+      carousel();
+  
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 4500);
+      } 
+
+
+  </script>
 </section>
 
 
@@ -49,28 +77,39 @@
           drink with an emphasis on local vendors, farmers, & ingredients.</p>
        <hr>
       <br><br>
+
       <div class="flex-container"> <br><br><br><br></div>
 
-
-    <div class="flex-container">
+    <div class="reservation-form-container">
       <p class ="P-LeftToImage"><strong></strong>
-        <form method="post" action="https://example.com/">
-          <br /><label for="myFName">*First Name:</label>
+
+        <!-- Form --------------------------------------------------------------------------->
+        <form method="post" action="#" autocomplete="on" id="reservation-form">
+
+          <br /><label for="myFName">First Name*</label><br>
           <input type="text" id="myFName" name="myFName" required="required">
-          <br /><label for="myLName">*Last Name: </label>
+
+          <br /><label for="myLName">Last Name* </label><br>
           <input type="text" id="myLName" name="myLName" required="required">
-          <br /><label for="myEmail">*E-mail: </label>
+
+          <br /><label for="myEmail">E-mail* </label><br>
           <input type="email" id="myEmail" name="myEmail" required="required">
-          <br /><label for="myPhone">Phone: </label>
+
+          <br /><label for="myPhone">Phone* </label><br>
           <input type="tel" id="myPhone" name="myPhone" maxlength="12"> 
-          <br /><label for="myRequestdDate">Requestd Date: </label>
-          <input type="date" id="my" name="myRequestdDate" >
-          <br /><label for="partySize">Party Size: </label>
+
+          <br /><label for="requested-date">Requested Date* </label><br>
+          <input type="date" id="requested-date" name="requested-date" >
+
+          <br /><label for="partySize">Party Size </label><br>
           <input type="number" id="partySize" name="partySize" min="8" max="30"><br />
-          <label for="myComments">*Comments:</label>
-          <textarea id="myComments" name="myComments" rows="2" cols="30" required="required"></textarea>
-          <br /><input type="submit"  value="Submit">
-        </form></p>
+
+          <label for="comments">Comments*</label><br>
+          <textarea id="comments" name="comments" rows="2" cols="30" required="required"></textarea>
+
+          <br/><input type="submit"  value="Submit">
+
+        </form>
     
 
    </div>
@@ -78,42 +117,18 @@
      </div>
 
 
-     <footer class="social-ul"><section id="contact">
+     <!--Footer--------------------------------------------------------------------------------------------------------------->
+     <footer class="social-ul" id="contact">
       <h2>How to find us</h2>
       <br>
         <a href="tel:+1262661-4653"> <i class="fa fa-phone"> </i></a>
-        <a href="https://g.page/rustic-roots-burlington?share"target="_blank"><i class="fa fa-car"></i></a>
+        <a href="https://g.page/rustic-roots-burlington?share" target="_blank"><i class="fa fa-car"></i></a>
         <a href="https://www.facebook.com/rusticrootsburlington/" target="_blank"><i class="fa fa-facebook-official"></i></a>
         <a href="https://www.yelp.com/biz/rustic-roots-burlington" target="_blank"><i class="fa fa-yelp"></i></a>
         <a href="https://www.instagram.com/rusticrootsburlington/" target="_blank"><i class="fa fa-instagram"></i></a>
-        <br><br>
+        <br>
       </footer>
 
-     <script>
-      var myIndex = 0;
-      carousel();
-  
-      function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none";
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}
-          x[myIndex-1].style.display = "block";
-          setTimeout(carousel, 4500);
-      }
-  
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  } 
-</script>
+      
 </body>
 </html>
