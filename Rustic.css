@@ -629,7 +629,7 @@ Menu{
   .Menu-Links-Below{             /*  menu navagation pages (sits below the title element) */
       padding: 15px;
       margin-top: 15px;
-      font-size:3vw;
+      font-size:2.7vw;
       text-align: center;
       background-color: #6F978F;
       font-weight: bolder;
@@ -645,14 +645,15 @@ Menu{
       text-decoration: none;
   }
   .Menu-Links-Below a {             /*  menu navagation anchor elements */
-      text-decoration: underline;
       color: #ffff;
-      padding: 10px;
+      padding: 5px 5px 1px 5px;
       border-radius: 25px;
       border-style: solid;
+      text-decoration: none;
   }
   .Menu-Links-Below a:hover{        /*  menu navagation anchor elements hover */
-  color: black
+        
+    background:#395e58;
   
   }
 
