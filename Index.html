@@ -11,21 +11,50 @@
 
 <!-- Top Navigation Menu -->
 <div class="topnav" id="myTopnav">
-    <a href="Index.html" class="active">Rustic Roots</a>
-    <a href="#table-container" >Hours</a>
-    <a href="Menu.html">Menus</a>
-    <a href="Reservations.html" target="_blank" >Reservations</a>
-    <a href="#contact" >Contact</a>
+  <a href="Index.html" class="active">Rustic Roots</a>
+  <a href="#Menu-Links" >Hours</a>
+  <a href="Menu.html">Menus</a>
+  <a href="Reservations.html"  >Reservations</a>
+  <a href="#contact" >Contact</a>
 
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 
+  <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  } 
+  </script>
 
-<!-- Top Nav UP---------------------------------------->
+<!-- Slides section -->
 <section id="Slides" >
   <img class="mySlides" src="farmlove.jpg" alt="Corn Farm and a house">
   <img class="mySlides" src="farmlove4.jpg" alt="Farm at sunset">
   <img class="mySlides" src="small%20plates.jpg" alt="Food">
+  <script>
+     var myIndex = 0;
+      carousel();
+  
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 4500);
+      } 
+
+
+  </script>
 </section>
  
 <br><br>
@@ -42,7 +71,7 @@
 </section>
 
      <div class="Menu-Links-Below-Index-hours">
-     <div id ="Munu-Links"></div>Hours</div>
+     <div id ="Menu-Links"></div>Hours</div>
 
     <div class="Digital-Menu-Index-hours">
       <div class="flex-container-Hours">
@@ -143,33 +172,9 @@
 
 
 
-<script>
-    var myIndex = 0;
-    carousel();
-
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 4500);
-    }
 
 
-  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-} 
 
-</script>
+</script> -->
 </body>
 </html>
