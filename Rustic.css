@@ -316,14 +316,16 @@ Menu{
 }
 
 
-/*------------------------------------------------------TOPNAV-DOWN----------------------------------------------------*/
+/*------------------------------------------------------TOPNAV----------------------------------------------------*/
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #92938D;
     overflow: hidden;
-    position:fixed;
+    position:absolute;
     z-index:100;
-    width:99%;
+    width:98vw;
+    align-content: center;
+    border-radius: 10px;
   }
   
   /* Style the links inside the navigation bar */
@@ -332,16 +334,13 @@ Menu{
     display: block;
     color: #f2f2f2;
     text-align: center;
+    
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
   }
   
-  /* Add an active class to highlight the current page */
-  .active {
-    background-color: #5e6e25;
-    color: white;
-  }
+ 
   
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
@@ -783,9 +782,13 @@ font-size:35px;
     text-align:center;
     border: 1px solid #92938D;
     
-    
-    
-    
+}
+#contact-us{
+    text-align: center;
+    font-size:5vh;
+
+
+
 }
 
 .image2 {
