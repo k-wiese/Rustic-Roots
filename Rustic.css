@@ -647,6 +647,9 @@ Menu{
   .Menu-Links-Below a {             /*  menu navagation anchor elements */
       text-decoration: underline;
       color: #ffff;
+      padding: 10px;
+      border-radius: 25px;
+      border-style: solid;
   }
   .Menu-Links-Below a:hover{        /*  menu navagation anchor elements hover */
   color: black
