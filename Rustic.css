@@ -72,6 +72,7 @@ body
     border:3px solid #92938D;
     color:black;
     opacity: 95%;
+    border-radius: 15px;
 
 }
 /*TEXT COLOR  = #5e6e25 */
@@ -509,6 +510,7 @@ Menu{
     margin: auto;
     overflow: hidden;
     opacity: 90%;
+    border-radius:0px 0px 15px 15px;
 }
 .Digital-Menu h2 {                           /* !---RESTURANT MENU CONTROLS---> */
     font-size:4vw;
@@ -627,9 +629,10 @@ Menu{
 
   }
   .Menu-Links-Below{             /*  menu navagation pages (sits below the title element) */
-      padding: 15px;
-      margin-top: 15px;
-      font-size:2.7vw;
+      padding-top: 1px;
+      padding-bottom: 15px;
+      margin-top: 10px;
+      font-size:2.5vw;
       text-align: center;
       background-color: #6F978F;
       font-weight: bolder;
@@ -640,6 +643,12 @@ Menu{
       margin-left: auto;
       margin-right: auto;
       opacity: 90%;
+      border-radius: 15px;
+  }
+  .Menu-Links-Below h1 {
+      margin-bottom: 20px;
+      font-size: 8vw;
+
   }
   .Menu-Links-Below a:visited{      /*  menu navagation pages (sits below the title element) */
       text-decoration: none;
@@ -647,8 +656,9 @@ Menu{
   .Menu-Links-Below a {             /*  menu navagation anchor elements */
       color: #ffff;
       padding: 5px 5px 1px 5px;
-      border-radius: 25px;
+      border-radius: 15px;
       border-style: solid;
+      border-width: .35vw;
       text-decoration: none;
   }
   .Menu-Links-Below a:hover{        /*  menu navagation anchor elements hover */
