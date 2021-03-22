@@ -315,27 +315,6 @@ Menu{
     
 }
 
-/* .container {
-    position: relative;
-    text-align: center;
-    color: rgb(214, 13, 13);
-  }
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } */
-
-
-
-
-  /*@media (max-width: 440px)
-{
-    section{
-        padding: 20px;
-    }
-}*/
 
 /*------------------------------------------------------TOPNAV-DOWN----------------------------------------------------*/
 /* Add a black background color to the top navigation */
@@ -493,7 +472,7 @@ Menu{
  .menu-picture{
 
     width:100%;
-    min-width: none;
+    
     max-height: none;
 
 
@@ -588,7 +567,7 @@ Menu{
 .rightimage{
     width:30vw; 
     height:20vw;
-    flex: inline;
+    
     margin-left: -3%;
 }
 .P-LeftToImage{
@@ -601,7 +580,7 @@ Menu{
 .leftimage{
     width:30vw; 
     height:20vw;
-    flex: inline;
+    
 }
 .P-RightToImage{
     text-align: right;
@@ -787,30 +766,25 @@ Menu{
     }
 }
 
-/* form css */
-#reservation-form-container{
+ 
+#reservation-form-container{   /*  ----------------FORMS CONTAINER----------*/
 width:100%;
-background-color: white;
+background-color: black;
 font-size:35px;
 
 }
-#reservation-form{
-    align-content: "center";
+#reservation-form{  /*  FORM ITSELF */                                                    
+    /*align-content:center;*/
     margin-left:auto;
     margin-right:auto;
    
-    width:40%;
+    width:40vw;
     text-align:center;
     border: 3px solid blue;
     background-color: teal;
+    margin-top:-10vw;
 }
-#reservation-form h2{
-    font-size:25;
-}
-#form-input-div{
-    background-color:violet;
-    
-}
+
 .image2 {
     margin-top: -18%;
     left: 12%;
