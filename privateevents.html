@@ -4,144 +4,160 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="javascript.js" ></script>
-<link rel="stylesheet" href="Rustic.css" type="text/css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Rustic.css">
+  <link rel="stylesheet" href="bs.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Rustic Roots | Pivate Events</title>
 
 <body class="IndexPageBodyImage">
-
-
-<!-- Top Navigation Menu -->
-<div class="topnav" id="myTopnav">
-  <a href="Index.html" class="active">Rustic Roots</a>
-  <a href="gallery.html" >Gallery</a>
-  <a href="Menu.html">Menus</a>
-  <a href="privateevents.html"  >Private Events</a>
-  <a href="#contact" >Contact</a>
-
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-  <script>
-      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-      function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  } 
-  </script>
-
+  <header>
+	
+		<nav class="navbar navbar-dark navbar-expand-lg bg-c-lightgreen">
+		
+			<a class="navbar-brand" href="Index.html"><img src="logo2.png" width="40" height="30" class="d-inline-block mr-1 align-bottom" alt=""> Rustic Roots</a>
+		
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse" id="mainmenu">
+			
+				<ul class="navbar-nav mr-auto">
+				
+					<li class="nav-item ">
+						<a class="nav-link" href="Menu.html"> Menu </a>
+					</li>
+					
+				
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#"> Private Events </a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link active" href="#"> Gallery </a>
+					</li>
+					
+                    <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> Contact </a>
+						
+						<div class="dropdown-menu" aria-labelledby="submenu">
+						
+							<a class="dropdown-item" href="tel:+1262661-4653"> Call us </a>
+							<a class="dropdown-item" href="mailto example@example.com"> Email us </a>
+                            <a class="dropdown-item" href="https://g.page/rustic-roots-burlington?share">Find us</a>
+							
+							<div class="dropdown-divider"></div>
+							
+                            <a class="dropdown-item" href="https://www.facebook.com/rusticrootsburlington/"> Facebook </a>
+                            <a class="dropdown-item" href="https://www.yelp.com/biz/rustic-roots-burlington"> Yelp </a>
+                            <a class="dropdown-item" href="https://www.instagram.com/rusticrootsburlington/"> Instagram </a>
+						
+						</div>
+						
+					</li>
+					
+					
+				
+				</ul>
+			
+			
+			
+			</div>
+		
+		</nav>
+	
+	</header>
 
   
-<!-- Slides section -->
-<section id="Slides" >
-  <img class="mySlides" src="farmlove.jpg" alt="Corn Farm and a house">
-  <img class="mySlides" src="farmlove4.jpg" alt="Farm at sunset">
-  <img class="mySlides" src="small%20plates.jpg" alt="Food">
-  <script>
-     var myIndex = 0;
-      carousel();
+  <main>
+  <!-- Slides section -->
+  <section id="Slides" >
+    <img class="mySlides" src="farmlove.jpg" alt="Corn Farm and a house">
+    <img class="mySlides" src="farmlove4.jpg" alt="Farm at sunset">
+    <img class="mySlides" src="small%20plates.jpg" alt="Food">
+    <script>
+      var myIndex = 0;
+        carousel();
+    
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 4500);
+        } 
+
+
+    </script>
+  </section>
+
+
+
+  <div class="flex-container-bottom"></div>
+      <div class="Menu-Links-Below-Index">
+        <div id ="Munu-Links"> Reservations </div></div>
+    
   
-      function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none";
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}
-          x[myIndex-1].style.display = "block";
-          setTimeout(carousel, 4500);
-      } 
-
-
-  </script>
-</section>
-
-
-
-<div class="flex-container-bottom"></div>
-    <div class="Menu-Links-Below-Index">
-      <div id ="Munu-Links"> Reservations </div></div>
   
- 
- 
- 
-     <div class="Digital-Menu-Index">
-      <div class="parent">
-        <img src="image2.jpg" class="image2" alt="" >
-       <h2><a href="Menu.html">Reservations</a></h2>
-       <p class="Digital-Menu-Index-paragraph">Our menu is inspired by our roots; both old & new. If you’re looking for delicious, creative, comforting food- 
-          you have come to the right place! We have a talented team dedicated to creating outstanding food & 
-          drink with an emphasis on local vendors, farmers, & ingredients.</p>
-       <hr>
-      <br><br>
-
-      
-
-    <div class="reservation-form-container">
-      <div id="contact-us">
-      <p>Call us : <a href="tel:+1262661-4653">+1262661-4653</a></p><br>
-      <p>Email us : <a href="mailto:example@gmail.com">example@mail.com</a></p><br>
-      <p>Visit us : <a href="https://g.page/rustic-roots-burlington?share" target="blank">597 N Pine St, Burlington, WI 53105</a></p><br>
-    </div>
-      <p class ="P-LeftToImage"><strong></strong>
-
-        <!-- Form --------------------------------------------------------------------------->
-        <!-- <form method="post" action="mailto:letmeheares@gmail.com" target="_blank" autocomplete="on" id="reservation-form" >
-
-          <br /><label for="myFName">First Name*</label><br>
-          <input type="text" id="myFName" name="First Name" required="required">
-
-          <br /><label for="myLName">Last Name* </label><br>
-          <input type="text" id="myLName" name="Last Name" required="required">
+  
+      <div class="Digital-Menu-Index">
+        <div class="parent">
+          <img src="image2.jpg" class="image2" alt="" >
+        <h2><a href="Menu.html">Reservations</a></h2>
+        <p class="Digital-Menu-Index-paragraph">Our menu is inspired by our roots; both old & new. If you’re looking for delicious, creative, comforting food- 
+            you have come to the right place! We have a talented team dedicated to creating outstanding food & 
+            drink with an emphasis on local vendors, farmers, & ingredients.</p>
+        <hr>
+        <br><br>
 
         
 
-          <br /><label for="myPhone">Phone* </label><br>
-          <input type="tel" id="myPhone" name="Phone number" maxlength="12"> 
+      <div class="reservation-form-container">
+        <div id="contact-us">
+        <p>Call us : <a href="tel:+1262661-4653">+1262661-4653</a></p><br>
+        <p>Email us : <a href="mailto:example@gmail.com">example@mail.com</a></p><br>
+        <p>Visit us : <a href="https://g.page/rustic-roots-burlington?share" target="blank">597 N Pine St, Burlington, WI 53105</a></p><br>
+      </div>
+        <p class ="P-LeftToImage"><strong></strong>
 
-          <br /><label for="requested-date">Requested Date* </label><br>
-          <input type="date" id="requested-date" name="Requested Date" >
 
-          <br /><label for="partySize">Party Size </label><br>
-          <input type="number" id="partySize" name="Size of Party" min="8" max="30" ><br />
-
-          <label for="comments">Comments*</label><br>
-          <textarea id="comments" name="Comments" rows="3" cols="20" required="required"></textarea>
-
-          <br/><input type="submit"  value="Submit">
-          <br>
-          <br>
-          
-          
-
-        </form> -->
-    
-
-   </div>
     </div>
-     </div>
+      </div>
+      </div>
 
 
-     <!--Footer--------------------------------------------------------------------------------------------------------------->
-     <footer class="social-ul-index-page"><section id="contact">
-      <h2>How to find us</h2>
-      <br>
-        <a href="tel:+1262661-4653"> <i class="fa fa-phone"> </i></a>
-        <a href="https://g.page/rustic-roots-burlington?share"target="_blank"><i class="fa fa-car"></i></a>
-        <a href="https://www.facebook.com/rusticrootsburlington/" target="_blank"><i class="fa fa-facebook-official"></i></a>
-        <a href="https://www.yelp.com/biz/rustic-roots-burlington" target="_blank"><i class="fa fa-yelp"></i></a>
-        <a href="https://www.instagram.com/rusticrootsburlington/" target="_blank"><i class="fa fa-instagram"></i></a>
-        <br><br>
-        <p>&copy; Copyright 2021 Rustic Roots Berlington</p>
-      </footer>
-
+     <section class="container-fluid footer bg-c-gray" >
+      <div class="row">
+        <div class="col-sm-12">
+          <footer >
+            <h1>How to find us</h1>            
+              <a href="tel:+1262661-4653"> <i class="fa fa-phone"> </i></a>
+              <a href="https://g.page/rustic-roots-burlington?share"target="_blank"><i class="fa fa-car"></i></a>
+              <a href="https://www.facebook.com/rusticrootsburlington/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+              <a href="https://www.yelp.com/biz/rustic-roots-burlington" target="_blank"><i class="fa fa-yelp"></i></a>
+              <a href="https://www.instagram.com/rusticrootsburlington/" target="_blank"><i class="fa fa-instagram"></i></a>
+              
+              <p>&copy; Copyright 2021 Rustic Roots Berlington</p>
+          </footer>
+        </div>
+      </div>
+    </section>
+  </main>
 
 
       
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      
+      <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
