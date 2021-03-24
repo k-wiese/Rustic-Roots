@@ -21,7 +21,7 @@ body
 
 #Slides{
     
-    width: 100%;
+    /* width: 100%;
      height: auto;
     position: relative;
     margin-left: auto;
@@ -31,7 +31,7 @@ body
     text-align:center;
     color:lightslategray;
     
-    
+     */
 
 
     
@@ -51,17 +51,17 @@ body
 @keyframes slides-animation{
     0%{
     opacity: 0%;
-    width:60%;
+  
     
 }
     15%{opacity:100%}
     50%{
         opacity:80%;
-        width:75%}   
+        }   
    
     100%{
         opacity: 0%;
-        width:85%;
+       
         
     }
     
