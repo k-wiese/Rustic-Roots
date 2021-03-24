@@ -18,7 +18,7 @@ background-color: #6F978F;
 
 
 .bg-c-gray{
-    background-color: gray;
+    background-color:#A89A83;
 }
 .text-color-white a{
     color:white;
@@ -34,13 +34,18 @@ background-color: #6F978F;
     width:100%;
     height:auto;
 }
-
+.b-gray{
+    border: 1px solid #83755B;
+    
+    margin-top: 1vh;
+}
 /* Footer */
 .footer{
     
-    border: 2px solid gray;
+    border: 1px solid #83755B;
     color: black;   
     list-style-type: none;
+    margin-top:1vh;
       
     opacity: 90%;  
     text-align: center;
@@ -75,8 +80,9 @@ background-color: #6F978F;
     opacity:90%;
 }
 .navbar-address {
-    background-color: rgba(94, 94, 94, 0.4);
+    background-color: rgba(100, 83, 57, 0.4);
     line-height:1.6;
+   
     
 }
 .navbar-address-lightgreen {
