@@ -43,7 +43,7 @@ background-color: #6F978F;
 .footer{
     
     border: 1px solid #83755B;
-    color: black;   
+    color: white;   
     list-style-type: none;
     margin-top:1vh;
       
@@ -52,8 +52,8 @@ background-color: #6F978F;
 }
 .footer a{
     border-radius: 50%;
-    border: 3px solid black;
-    color: black;
+    border: 3px solid white;
+    color: white;
     display: inline-flex;
     align-items: center;
     justify-content: center;
