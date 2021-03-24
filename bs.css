@@ -11,11 +11,17 @@ body
 }
 
 /*coloring*/
+
 .bg-c-lightgreen{
 background-color: #6F978F;
 }
+
+
 .bg-c-gray{
     background-color: gray;
+}
+.text-color-white a{
+    color:white;
 }
 
 /*Navbar*/
@@ -64,5 +70,17 @@ background-color: #6F978F;
 
 /* End of Footer */
 
-
-
+/* Review */
+.opacity{
+    opacity:90%;
+}
+.navbar-address {
+    background-color: rgba(94, 94, 94, 0.4);
+    line-height:1.6;
+    
+}
+.navbar-address-lightgreen {
+    background-color: rgba(60, 133, 129, 0.4);
+    line-height:1.6;
+    
+}
