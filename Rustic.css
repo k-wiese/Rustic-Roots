@@ -225,6 +225,7 @@ section h2 {
 
 }
 #bio h1{
+    font-size: 5vw;
     text-align: center;
 }
 .bio h2{
@@ -720,3 +721,7 @@ font-size:35px;
     top: 0;
     left: 0;
   }
+.Calendar iframe{
+    width:60vw; 
+    height:60vw;
+}
