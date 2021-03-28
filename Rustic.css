@@ -78,14 +78,15 @@ body
     padding-right: 10%;
     width:85%;
     height:100%;
+    margin-top: 55px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     display:block;
     border:3px solid #92938D;
-    color:black;
+    color:rgb(11, 155, 75);
     opacity: 95%;
-    border-radius: 15px;
+    border-radius: 5px;
 
 }
 
@@ -599,10 +600,11 @@ Menu{
     margin-left: auto;
     margin-right: auto;
     opacity: 95%;
+    border-radius: 5px 5px 0px 0px;
 }
 .Menu-Links-Below-Index-hours{
     padding: 15px;
-    margin-top: 15px;
+    margin-top: 50px;
     font-size:3vw;
     text-align: center;
     background-color: #92938D;
@@ -614,6 +616,7 @@ Menu{
     margin-left: auto;
     margin-right: auto;
     opacity: 95%;
+    border-radius: 5px 5px 0px 0px;
 }
 .Digital-Menu-Index{                          /* !---RESTURANT MENU CONTROLS---> */
     padding: 15px;
@@ -625,17 +628,20 @@ Menu{
     margin: auto;
     overflow: hidden;
     opacity: 95%;
+    border-radius: 0px 0px 5px 5px;
 }
 .Digital-Menu-Index-hours{                          /* !---RESTURANT MENU CONTROLS---> */
     padding: 15px;
-    margin-top: 15px;
+    box-shadow: #000;
     background-color: white;
     border:3px solid #92938D;
     width:65%;
     height:100%;
     margin: auto;
+    margin-bottom: 50px;
     overflow: hidden;
     opacity: 95%;
+    border-radius: 0px 0px 5px 5px;
 }
 .Digital-Menu-Index h2 {                           /* !---DIV CONTROLS FOR INDEX TEXT---> */
     font-size:5vw;
@@ -645,6 +651,7 @@ Menu{
 .flex-container-Hours {                           /* !---RESTURANT MENU CONTROLS---> */
     display: flex;
     justify-content: space-evenly; 
+    margin-bottom: 50px;
 
 }
 .flex-container-Hours p{                          /* !---RESTURANT MENU CONTROLS---> */
