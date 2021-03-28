@@ -71,7 +71,7 @@ body
 
 
 #bio{
-    background-color:#A6A295;
+    
     text-align: center;
     font-size:2.5vw;
     padding-left: 10%;
@@ -83,7 +83,7 @@ body
     margin-left: auto;
     margin-right: auto;
     display:block;
-    border:3px solid #92938D;
+    border:3px solid #83755B;
     color:rgb(11, 155, 75);
     opacity: 95%;
     border-radius: 5px;
